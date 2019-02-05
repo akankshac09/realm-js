@@ -41,6 +41,7 @@ global.it.environment = require("./utils/environment-test");
 
 describe(global.title, () => {
     require("./realm-constructor");
+    require("./imperative-schema-manipulation");
 });
 
 afterEach(() => {
